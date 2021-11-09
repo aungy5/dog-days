@@ -1,0 +1,7 @@
+@media screen and (max-height: 450px) {
+    img {
+      height: 100px;
+      width: 100px;
+    }
+}
+

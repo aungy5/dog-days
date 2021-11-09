@@ -1,0 +1,101 @@
+[
+    {
+    "name": "Hudson",
+    "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/IMAGE-FILE-NAME",
+    "type":"Lab",
+    "breeder": "Endless Mountain Labs",
+    "description": "The sweet-faced, lovable Labrador Retriever is America's most popular dog breed. Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog",
+    "dogId": "1",
+    "akcLink": "https://www.akc.org/dog-breeds/labrador-retriever/"
+    },
+    {
+        "name": "Laser",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/greyhound.jpeg",
+        "type":"Greyhound",
+        "breeder": "FastDoglabs",
+        "description": "The champion sprinter of dogdom, the Greyhound is a gentle, noble, and sweet-tempered companion with an independent spirit. For thousands of years these graceful hounds have been an object of fascination for artists, poets, and kings.",
+        "dogId": "2",
+        "akcLink": "https://www.akc.org/dog-breeds/greyhound/"
+    },
+    {
+        "name": "Seamus",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/bulldog.jpeg",
+        "type":"Bulldog",
+        "breeder": "Fox Chapel Bulldogs",
+        "description": "Kind but courageous, friendly but dignified, the Bulldog is a thick-set, low-slung, well-muscled bruiser whose 'sourmug' face is the universal symbol of courage and tenacity. These docile, loyal companions adapt well to town or country.",
+        "dogId": "3",
+        "akcLink": "https://www.akc.org/dog-breeds/bulldog/"
+    },
+    {
+        "name": "Tito",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/Pomeranian.jpeg",
+        "type":"Pomeranian",
+        "breeder": "Priceless Poms",
+        "description": "The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personality have helped make the Pom one of the world's most popular toy breeds.",
+        "dogId": "4",
+        "akcLink": "https://www.akc.org/dog-breeds/pomeranian/"
+    },
+    {
+        "name": "Christopher",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/pug.jpeg",
+        "type":"Pug",
+        "breeder": "Satriale's Pugs",
+        "description": "Once the mischievous companion of Chinese emperors, and later the mascot of Holland's royal House of Orange, the small but solid Pug is today adored by his millions of fans around the world. Pugs live to love and to be loved in return.",
+        "dogId": "5",
+        "akcLink": "https://www.akc.org/dog-breeds/pug/"
+    },
+    {
+        "name": "Chop",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/rotweiler.jpeg",
+        "type":"Rottweiler",
+        "breeder": "Dog Security Solutions",
+        "description": "The Rottweiler is a robust working breed of great strength descended from the mastiffs of the Roman legions. A gentle playmate and protector within the family circle, the Rottie observes the outside world with a self-assured aloofness.",
+        "dogId": "6",
+        "akcLink": "https://www.akc.org/dog-breeds/rottweiler/"
+    },
+    {
+        "name": "Hudson",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/golden.jpeg",
+        "type":"Golden Retriever",
+        "breeder": "Glenda's Goldens",
+        "description": "The Golden Retriever, an exuberant Scottish gundog of great beauty, stands among America's most popular dog breeds. They are serious workers at hunting and field work, as guides for the blind, and in search-and-rescue, enjoy obedience and other competitive events, and have an endearing love of life when not at work.",
+        "dogId": "7",
+        "akcLink": "https://www.akc.org/dog-breeds/golden-retriever/"
+    },
+    {
+        "name": "Yukon",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/husky.jpeg",
+        "type":"Siberian Husky",
+        "breeder": "Arctic Labs INC",
+        "description": "Siberian Husky, a thickly coated, compact sled dog of medium size and great endurance, was developed to work in packs, pulling light loads at moderate speeds over vast frozen expanses. Sibes are friendly, fastidious, and dignified.",
+        "dogId": "8",
+        "akcLink": "https://www.akc.org/dog-breeds/siberian-husky/"
+    },
+    {
+        "name": "Leo",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/poodle.jpeg",
+        "type":"Poodle",
+        "breeder": "Burlington Poodles",
+        "description": "Whether Standard, Miniature, or Toy, and either black, white, or apricot, the Poodle stands proudly among dogdom’s true aristocrats. Beneath the curly, low-allergen coat is an elegant athlete and companion for all reasons and seasons.",
+        "dogId": "9",
+        "akcLink": "https://www.akc.org/dog-breeds/poodle-standard/"
+    },
+    {
+        "name": "Hudson",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/germanshepard.jpeg",
+        "type":"German Shephard",
+        "breeder": "Watchman Breeders",
+        "description": "Generally considered dogkind's finest all-purpose worker, the German Shepherd Dog is a large, agile, muscular dog of noble character and high intelligence. Loyal, confident, courageous, and steady, the German Shepherd is truly a dog lover's delight.",
+        "dogId": "10",
+        "akcLink": "https://www.akc.org/dog-breeds/german-shepherd-dog/"
+    },
+    {
+        "name": "Snickers",
+        "image": "https://github.com/aungy5/ecommerce-site/raw/main/client/public/images/chocolab.jpeg",
+        "type":"Lab",
+        "breeder": "Endless Mountain Labs",
+        "description": "The sweet-faced, lovable Labrador Retriever is America's most popular dog breed. Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog",
+        "dogId": "11",
+        "akcLink": "https://www.akc.org/dog-breeds/labrador-retriever/"
+    }
+]

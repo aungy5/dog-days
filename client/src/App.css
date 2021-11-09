@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media screen and (max-width: 300px) {
+  .img1 {
+    height: 50px;
+    width: 100px;
+  }
+} */
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .img1 {
+    height: 200px;
+    width: 275px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .img1 {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .img1 {
+    height: 400px;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 5000px) {
+  .img1 {
+    height: 400px;
+    width: 600px;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  .img1 {
+    height: 300px;
+    width: 400px;
+  }
+} */
+
+/* @media screen and (min-width: 450px) {
+  .img1 {
+    height: 500px;
+    width: 800px;
+  }
+} */
