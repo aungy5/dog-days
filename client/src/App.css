@@ -44,6 +44,13 @@
   }
 } */
 
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  .img1 {
+    height: 100px;
+    width: 175px;
+  }
+}
+
 @media screen and (min-width: 400px) and (max-width: 450px) {
   .img1 {
     height: 200px;
