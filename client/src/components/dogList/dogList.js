@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SAVE_DOG } from '../../utils/mutations'
 
 import '../../App.css'
 
@@ -24,10 +25,10 @@ const imgStyle = {
 };
 
 const dogList = ({ dogs }) => {
+
   if (!dogs.length) {
     return <h3>No dogs Yet</h3>;
   }
-
 
     return (
       <section className="dogs">
@@ -47,6 +48,11 @@ const dogList = ({ dogs }) => {
                 </p>
                 <a href={dog.akcLink} className="btn btn-dark" style={linkStyle}>
                   Learn More About This Breed
+                </a>
+                <br></br>
+                <br></br>
+                <a href="ADD ROUTE HERE" className="btn btn-dark" style={linkStyle}>
+                  Save Dog
                 </a>
               </div>
               {/* <div class="card-footer text-muted">XXX</div> */}

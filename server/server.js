@@ -1,6 +1,15 @@
 const express = require('express');
+const router = require('express').Router();
 const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
+
+const {
+  createUser,
+  getSingleUser,
+  saveDog,
+  deleteDog,
+  login,
+} = require('../server/controllers/userController');
 
 const { typeDefs, resolvers } = require('./schemas');
 const { authMiddleware } = require('./utils/auth');
@@ -31,6 +40,9 @@ if (process.env.NODE_ENV === 'production') {
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
+
+router.route('/api/users').put(authMiddleware, saveDog);
+//router.route('/').post(createUser).put(authMiddleware, saveBook);
 
 db.once('open', () => {
   app.listen(PORT, () => {

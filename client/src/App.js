@@ -6,6 +6,9 @@ import Login from './pages/Login'
 import Contact from './pages/Contact'
 import Signup from './pages/Signup'
 import Dog from './pages/Dog'
+//import SearchDogs from './components/dogSearch/SearchDogs'
+import DogSearch from './pages/DogSearch'
+import BreedSearch from './pages/breedSearch'
 import Post from './pages/Post'
 import SinglePost from './pages/SinglePost'
 import singleDog from './pages/SingleDog'
@@ -66,15 +69,21 @@ function App() {
           <Route exact path="/dogs">
             <Dog />
           </Route>
+          <Route exact path="/search">
+            <BreedSearch />
+          </Route>
+          <Route exact path="/searchdogs">
+            <DogSearch />
+          </Route>
+
+          {/* <Route exact path="/searchdogs" component={SearchDogs} /> */}
+            
           <Route exact path="/posts">
             <Post />
           </Route>
           <Route exact path="/posts/:postId">
             <SinglePost />
           </Route>
-          {/* <Route exact path="/dogs/:dogId">
-            <singleDog />
-          </Route> */}
           <Footer/>
           </div>
       </Router>

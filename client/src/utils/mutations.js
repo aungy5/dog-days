@@ -54,3 +54,21 @@ export const ADD_COMMENT = gql`
     }
   }
 `;
+
+export const SAVE_DOG = gql`
+mutation saveDog($input: dogInput) {
+  saveDog(input: $input) {
+    _id
+    username
+    email
+    savedDogs {
+      dogId
+      name
+      type
+      breeder
+      image
+      description
+    }
+  }
+}
+`
