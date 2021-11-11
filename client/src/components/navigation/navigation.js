@@ -60,6 +60,8 @@ function Navigation(props) {
                 <Nav.Link href="/dogs" style={navStyle}>Dogs</Nav.Link>
                 <Nav.Link href="/posts" style={navStyle}>Posts</Nav.Link>
                 <Nav.Link href="/contact" style={navStyle}>Contact</Nav.Link>
+                <Nav.Link href="/searchdogs" style={navStyle}>Search Breeds</Nav.Link>
+                <Nav.Link href="/search" style={navStyle}>Breed Info</Nav.Link>
                 <Nav.Link href="/signup" style={navStyle}>Signup</Nav.Link>
                 <Nav.Link href="/login" style={navStyle}>Login</Nav.Link>
               </Nav>

@@ -60,14 +60,14 @@ mutation saveDog($dogId: ID!) {
   saveDog(dogId: $dogId) {
     _id
     username
-    email
     savedDogs {
       _id
       name
+      image
       type
       breeder
-      image
       description
+      akcLink
     }
   }
 }

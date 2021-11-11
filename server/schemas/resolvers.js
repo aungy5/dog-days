@@ -71,19 +71,17 @@ const resolvers = {
       console.log(context.user)
       console.log(dogId)
       if (context.user) {
-        const updatedUser = await User.findByIdAndUpdate(
+        
+        const dog = await Dog.findById({ _id: dogId })
+        
+        console.log(dog)
+
+        await User.findByIdAndUpdate(
           { _id: context.user._id },
-          { 
-            $addToSet: { 
-            savedDogs: dogId } 
-          },
-          { 
-            new: true,
-            runValidators: true, 
-          }
+          { $addToSet: { savedDogs: dog._id } },
         );
-        console.log(updatedUser);
-        return updatedUser;
+        console.log(dog);
+        return dog;
       }
       throw new AuthenticationError('Not logged in');
     },

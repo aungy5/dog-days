@@ -17,7 +17,7 @@ const typeDefs = gql`
     username: String
     password: String
     email: String
-    savedDogs: [Dog]!
+    savedDogs: [Dog]
   }
 
   type Post {
