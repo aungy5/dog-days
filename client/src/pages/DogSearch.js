@@ -119,9 +119,10 @@ const DogSearch = () => {
             className="form-input" 
             name="searchInput" 
             value={searchInput}
-            placeholder="Search for dogs..." 
+            placeholder="Search for breeds..." 
             onChange= {(e) => setSearchInput(e.target.value)}
             />
+            <br></br>
             <br></br>
         <button className="btn btn-dark" style={linkStyle}>Search</button>
         </div>
@@ -164,7 +165,7 @@ const DogSearch = () => {
                   <a href="ADD ROUTE HERE" className="btn btn-dark" style={linkStyle}>
                     Save Dog
                   </a> */}
-                  {Auth.loggedIn() && (
+                  {/* {Auth.loggedIn() && (
                     <button className="btn btn-dark"
                     disabled={savedDogIds?.some((savedDogId) => savedDogId === dog.dogId)}
                     onClick={() => handleSaveDog(dog.dogId)} style={linkStyle}>
@@ -172,7 +173,7 @@ const DogSearch = () => {
                     ? 'This dog has already been saved!'
                     : 'Save this Dog!'}
                     </button>
-                  )}
+                  )} */}
                   
                 </div>
                 <div className="card-footer text-bold">Breed Traits: {dog.temperament}</div>

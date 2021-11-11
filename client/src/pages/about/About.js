@@ -51,14 +51,21 @@ const About = () => {
   <div className="buttons" style={divStyle}>
   <button type="button" className="btn btn-dark">
       <Link to="/dogs" style={linkStyle}>
-      View Our Dogs!
+      View Our Dogs
       </Link>
     </button>
     <br></br>
     <br></br>
     <button type="button" className="btn btn-dark">
       <Link to="/posts" style={linkStyle}>
-      View Our Blog!
+      View Our Blog
+      </Link>
+    </button>
+    <br></br>
+    <br></br>
+    <button type="button" className="btn btn-dark">
+      <Link to="/searchbreeds" style={linkStyle}>
+      Search Breeds
       </Link>
     </button>
     </div>

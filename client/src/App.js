@@ -11,6 +11,7 @@ import DogSearch from './pages/DogSearch'
 import BreedSearch from './pages/breedSearch'
 import Post from './pages/Post'
 import SinglePost from './pages/SinglePost'
+import User from './pages/User'
 import Search from './pages/Search'
 import SingleDog from './pages/SingleDog'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -70,10 +71,10 @@ function App() {
           <Route exact path="/dogs">
             <Dog />
           </Route>
-          <Route exact path="/search">
+          <Route exact path="/breedinfo">
             <BreedSearch />
           </Route>
-          <Route exact path="/searchdogs">
+          <Route exact path="/searchbreeds">
             <DogSearch />
           </Route>
 
@@ -87,6 +88,9 @@ function App() {
           </Route>
           <Route exact path="/dogs/:dogId">
             <SingleDog />
+          </Route>
+          <Route exact path="/user">
+            <User />
           </Route>
           <Footer/>
           </div>

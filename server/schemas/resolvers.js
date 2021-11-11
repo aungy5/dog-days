@@ -8,7 +8,7 @@ const resolvers = {
       return User.find().populate('posts');
     },
     user: async (parent, { username }) => {
-      return User.findOne({ username }).populate('posts');
+      return User.findOne({ username }).populate('savedDogs');
     },
     me: async (parent, args, context) => {
       if (context.user) {
@@ -16,7 +16,7 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    // GET ALL POSTS
+    // GET ALL POSTS FOR USER
     posts: async (parent, { username }) => {
       const params = username ? { username } : {};
       return Post.find(params).sort({ createdAt: -1 });
@@ -25,7 +25,7 @@ const resolvers = {
     post: async (parent, { postId }) => {
       return Post.findOne({ _id: postId });
     },
-    // GET ALL DOGS
+    // GET ALL DOGS FOR USER
     dogs: async (parent, { username }) => {
       const params = username ? { username } : {};
       return Dog.find(params).sort({ createdAt: -1 });

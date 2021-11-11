@@ -27,7 +27,7 @@ function BreedSearch() {
         getDogs();
 
         async function getDogs() {
-            const response = await fetch(`https://api.thedogapi.com/v1/breeds/?limit=10`, {
+            const response = await fetch(`https://api.thedogapi.com/v1/breeds/?limit=30`, {
                 method: "GET",
                 headers: {"x-api-key" : "5881783a-3c1c-4a92-951e-f1166c1b84dc"}
             });
@@ -47,7 +47,7 @@ function BreedSearch() {
               <div className="card text-center">
                 <div className="card-header" style={titleStyle}> <h2>Breed Group: {dog.breed_group}</h2> </div>
                 <div className="card-body">
-                  <h3 className="card-title">{dog.name}</h3>
+                  <h3 className="card-title">Breed Name: {dog.name}</h3>
                   <img className="img1" src={dog.image.url}></img>
                   <p className="card-text">
                     Bred For: {dog.bred_for}
