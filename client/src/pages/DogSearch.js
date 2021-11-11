@@ -142,9 +142,9 @@ const DogSearch = () => {
             <div className="row" key={dog.id} style={dogStyle}>
             <div className="col-sm-8">
               <div className="card text-center">
-                <div className="card-header" style={titleStyle}> <h2>Breed Group: {dog.breed_group}</h2> </div>
+                <div className="card-header" style={titleStyle}> <h2>{dog.name}</h2> </div>
                 <div className="card-body">
-                  <h3 className="card-title">{dog.name}</h3>
+                  <h3 className="card-title">Breed Group: {dog.breed_group}</h3>
                   {/* <img className="img1" src={dog.image.url}></img> */}
                   <p className="card-text">
                     Bred For: {dog.bred_for}

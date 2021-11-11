@@ -11,7 +11,8 @@ import DogSearch from './pages/DogSearch'
 import BreedSearch from './pages/breedSearch'
 import Post from './pages/Post'
 import SinglePost from './pages/SinglePost'
-import singleDog from './pages/SingleDog'
+import Search from './pages/Search'
+import SingleDog from './pages/SingleDog'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -83,6 +84,9 @@ function App() {
           </Route>
           <Route exact path="/posts/:postId">
             <SinglePost />
+          </Route>
+          <Route exact path="/dogs/:dogId">
+            <SingleDog />
           </Route>
           <Footer/>
           </div>

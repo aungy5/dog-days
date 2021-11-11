@@ -23,10 +23,39 @@ const userSchema = new Schema(
             required: true,
             minLength: 7
         },
-        savedDogs: [Dog.schema],
+        //savedDogs: [Dog.schema],
         // commentsMade: [Comment.schema],
-        postsMade: [Post.schema],
+        //postsMade: [Post.schema],
         // commentsMade: [Post.comments.schema]
+        savedDogs: [
+            {
+                name: {
+                    type: String,
+                    trim: true,
+                    required: true
+                },
+                type: {
+                    type: String,
+                },
+                breeder: {
+                    type: String,
+                },
+                image: {
+                    type: String,
+                },
+                description: {
+                    type: String
+                },
+                // dogId: {
+                //     type: String,
+                //     required: true
+                // },
+                akcLink: {
+                    type: String,
+                    required: true
+                }
+            }
+        ]
     },
     {
         toJSON: {

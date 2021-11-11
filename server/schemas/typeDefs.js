@@ -11,27 +11,13 @@ const typeDefs = gql`
     akcLink: String
   }
 
-   input dogInput {
-    dogId: Int
-    name: String
-    type: String
-    breeder: String
-    image: String,
-    description: String
-  }
-
 
   type User {
     _id: ID
     username: String
     password: String
     email: String
-    dogCount: Int
-    savedDogs: [Dog]
-    commentCount: Int
-    commentsMade: [Comment]
-    postCount: Int
-    postsMade: [Post]
+    savedDogs: [Dog]!
   }
 
   type Post {
@@ -61,7 +47,7 @@ const typeDefs = gql`
     posts(username: String): [Post]
     post(postId: ID!): Post
     dogs(username: String): [Dog]
-    dog(dogId: String!): Dog
+    dog(dogId: ID!): Dog
   }
 
   type Mutation {
@@ -70,8 +56,8 @@ const typeDefs = gql`
     updateUser(username: String!, email: String!, password: String!): User
     addPost(postBody: String!): Post
     addComment(postId: ID!, commentBody: String!): Post
-    saveDog(input: dogInput): User
-    removeDog(dogId: Int!): User
+    saveDog(dogId: ID!): User
+    removeDog(dogId: ID!): User
     removePost(postId: ID!): Post
     removeComment(postId: ID!, commentId: ID!): Post
   }

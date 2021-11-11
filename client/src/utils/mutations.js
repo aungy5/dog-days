@@ -56,13 +56,13 @@ export const ADD_COMMENT = gql`
 `;
 
 export const SAVE_DOG = gql`
-mutation saveDog($input: dogInput) {
-  saveDog(input: $input) {
+mutation saveDog($dogId: ID!) {
+  saveDog(dogId: $dogId) {
     _id
     username
     email
     savedDogs {
-      dogId
+      _id
       name
       type
       breeder

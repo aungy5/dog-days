@@ -38,6 +38,8 @@ function Navigation(props) {
                 <Nav.Link href="/dogs" style={navStyle}>Dogs</Nav.Link>
                 <Nav.Link href="/posts" style={navStyle}>Posts</Nav.Link>
                 <Nav.Link href="/contact" style={navStyle}>Contact</Nav.Link>
+                <Nav.Link href="/searchdogs" style={navStyle}>Search Breeds</Nav.Link>
+                <Nav.Link href="/search" style={navStyle}>Breed Info</Nav.Link>
                 <a href="/" className="nav-link" onClick={() => Auth.logout()} style={navStyle}>Logout</a>
               </Nav>
             </Navbar.Collapse>

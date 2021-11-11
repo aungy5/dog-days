@@ -51,8 +51,8 @@ const dogList = ({ dogs }) => {
                 </a>
                 <br></br>
                 <br></br>
-                <a href="ADD ROUTE HERE" className="btn btn-dark" style={linkStyle}>
-                  Save Dog
+                <a href={`/dogs/${dog._id}`} className="btn btn-dark" style={linkStyle}>
+                  Learn More!
                 </a>
               </div>
               {/* <div class="card-footer text-muted">XXX</div> */}

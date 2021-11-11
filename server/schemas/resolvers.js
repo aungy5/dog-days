@@ -31,7 +31,7 @@ const resolvers = {
       return Dog.find(params).sort({ createdAt: -1 });
     },
     // GET SINGLE DOG
-    dog: async (parent, { postId }) => {
+    dog: async (parent, { dogId }) => {
       return Dog.findOne({ _id: dogId });
     },
   },
@@ -67,17 +67,39 @@ const resolvers = {
       return { token, user };
     },
 
-    saveDog: async (parent, { input }, context) => {
+    saveDog: async (parent, { dogId }, context) => {
+      console.log(context.user)
+      console.log(dogId)
       if (context.user) {
         const updatedUser = await User.findByIdAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { savedDogs: input } },
-          { new: true }
+          { 
+            $addToSet: { 
+            savedDogs: dogId } 
+          },
+          { 
+            new: true,
+            runValidators: true, 
+          }
         );
+        console.log(updatedUser);
         return updatedUser;
       }
       throw new AuthenticationError('Not logged in');
     },
+
+    // saveDog: async (parent, { dogId }, context) => {
+    //   console.log(context);
+    //   if (context.user) {
+
+    //     return User.findByIdAndUpdate(context.user.id, {
+    //       $push: { savedDogs: dogId },
+    //     });
+    //   }
+
+    // throw new AuthenticationError('Not logged in');
+    // },
+
     removeDog: async (parent, args, context) => {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(

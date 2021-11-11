@@ -78,10 +78,10 @@ export const QUERY_ME = gql`
       _id
       username
       email
-      posts {
+      dogs {
         _id
-        postBody
-        username
+        type
+        name
         createdAt
       }
     }
