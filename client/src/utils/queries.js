@@ -6,10 +6,8 @@ export const QUERY_USER = gql`
       _id
       username
       email
-      posts {
+      savedDogs {
         _id
-        postBody
-        createdAt
       }
     }
   }

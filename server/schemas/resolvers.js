@@ -76,12 +76,12 @@ const resolvers = {
         
         console.log(dog)
 
-        await User.findByIdAndUpdate(
+        const updatedUser = await User.findByIdAndUpdate(
           { _id: context.user._id },
           { $addToSet: { savedDogs: dog._id } },
         );
-        console.log(dog);
-        return dog;
+        console.log(updatedUser);
+        return updatedUser;
       }
       throw new AuthenticationError('Not logged in');
     },
