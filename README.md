@@ -1,6 +1,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   # Dog Days
+  
+  Deployed Application => https://lit-plateau-45514.herokuapp.com
+
+  Application Repository => https://github.com/aungy5/dog-days
+  
   ## Table of Contents
 - [Description](#description)
 
