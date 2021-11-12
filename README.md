@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  # Dog Days
+  
+  Deployed Application => https://lit-plateau-45514.herokuapp.com
 
-## Available Scripts
+  Application Repository => https://github.com/aungy5/dog-days
+  
+  ## Table of Contents
+- [Description](#description)
 
-In the project directory, you can run:
+- [Installation](#installation)
 
-### `npm start`
+- [Usage](#usage)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Contributors](#contributors)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Testing](#testing)
 
-### `npm test`
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Questions](#questions)
 
-### `npm run build`
+  ## Description
+  A blog-style site that can double as a site for adoptions. We have a blog section where users can post about their dogs and comment on posts from other users. Then we have a Dogs section where users can view all the dogs that they could adopt from our site, as well as save the dogs to their profile. Lastly, we have a breed search section where users can browse different breeds of dogs to see which one might be the best fit for them. 
+  ## Installation
+  to install this project, simply clone the repository, and then run npm install from the root level. Following this process will ensure that all necessary dependencies are installed. 
+  ## Usage
+  To use this app, the user simply needs to click on the link at the top of this repository. 
+  ## Contributors
+  No additional contributors on this project. 
+  ## Testing
+  no tests were required for this project. 
+  ## License
+  Click the license badge at the top of the ReadME to learn more about the license for this project. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ## Questions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  Please contact me with any questions using either of the avenues below. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  Github URL: https://github.com/aungy5
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  Email: aungvary5@gmail.com
