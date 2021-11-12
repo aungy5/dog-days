@@ -70,7 +70,7 @@ const DogSearch = () => {
 
             const response = await fetch(`https://api.thedogapi.com/v1/breeds/search?q=${searchInput}`, {
                 method: "GET",
-                headers: {"x-api-key" : "5881783a-3c1c-4a92-951e-f1166c1b84dc"}
+                headers: {"x-api-key" : process.env.API_KEY}
             });
 
             const dogData = await response.json();

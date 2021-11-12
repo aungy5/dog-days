@@ -29,7 +29,7 @@ function BreedSearch() {
         async function getDogs() {
             const response = await fetch(`https://api.thedogapi.com/v1/breeds/?limit=30`, {
                 method: "GET",
-                headers: {"x-api-key" : "5881783a-3c1c-4a92-951e-f1166c1b84dc"}
+                headers: {"x-api-key" : process.env.API_KEY}
             });
             const data = await response.json();
             setDogs(data);
